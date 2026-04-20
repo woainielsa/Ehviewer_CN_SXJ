@@ -39,12 +39,12 @@
     <color name="primary_text_default_material_black">#d9ffffff</color>
     <color name="primary_text_disabled_material_black">#4dffffff</color>
 
-    <color name="background_dark">#ff303030</color>
-    <color name="background_light">#fffafafa</color>
+    <color name="background_dark">@color/apple_background_dark</color>
+    <color name="background_light">@color/apple_background</color>
 
-    <color name="content_light">@color/grey_100</color>
-    <color name="content_dark">@color/grey_825</color>
-    <color name="content_black">@color/grey_925</color>
+    <color name="content_light">@color/apple_card</color>
+    <color name="content_dark">@color/apple_card_dark</color>
+    <color name="content_black">@color/apple_card_dark</color>
 
     <color name="content_activated_light">@color/grey_300</color>
     <color name="content_activated_dark">@color/grey_600</color>
@@ -126,9 +126,21 @@
     <color name="grey_100">#fff5f5f5</color>
     <color name="brown_500">#ff795548</color>
 
-    <color name="colorPrimary" >@color/teal_500</color>
-    <color name="colorPrimaryDark">@color/teal_700</color>
-    <color name="colorAccent">@color/purple_a200</color>
+    <!-- Apple 风格配色 -->
+    <color name="apple_blue">#ff007AFF</color>
+    <color name="apple_blue_dark">#ff0056CC</color>
+    <color name="apple_purple">#ff5856D6</color>
+    <color name="apple_gray">#ff8E8E93</color>
+    <color name="apple_background">#ffF2F2F7</color>
+    <color name="apple_background_dark">#ff1C1C1E</color>
+    <color name="apple_separator">#ffC6C6C8</color>
+    <color name="apple_separator_dark">#ff38383A</color>
+    <color name="apple_card">#ffffffff</color>
+    <color name="apple_card_dark">#ff2C2C2E</color>
+    
+    <color name="colorPrimary" >@color/apple_blue</color>
+    <color name="colorPrimaryDark">@color/apple_blue_dark</color>
+    <color name="colorAccent">@color/apple_purple</color>
 
     <color name="translucent_bg">#80ffffff</color>
     <color name="trans">#00ffffff</color>
@@ -169,8 +181,8 @@
     <color name="unknown_bg">@android:color/black</color>
 
     <!-- divider -->
-    <color name="divider_light">#20000000</color>
-    <color name="divider_dark">#20ffffff</color>
+    <color name="divider_light">@color/apple_separator</color>
+    <color name="divider_dark">@color/apple_separator_dark</color>
 
     <!-- shadow -->
     <color name="shadow_light">#38000000</color>
