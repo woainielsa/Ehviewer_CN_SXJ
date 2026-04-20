@@ -210,10 +210,11 @@
     </style>
 
     <style name="CardView.Normal">
-        <item name="cardCornerRadius">2dp</item>
+        <!-- Apple 风格卡片：更大的圆角和柔和的阴影 -->
+        <item name="cardCornerRadius">12dp</item>
         <item name="cardUseCompatPadding">true</item>
-        <item name="cardElevation">2dp</item>
-        <item name="cardMaxElevation">2dp</item>
+        <item name="cardElevation">4dp</item>
+        <item name="cardMaxElevation">6dp</item>
         <item name="cardPreventCornerOverlap">true</item>
         <item name="cardBackgroundColor">?attr/contentColorPrimary</item>
         <item name="contentPadding">0dp</item>
@@ -239,19 +240,20 @@
     </style>
 
     <style name="ThemeChangeButtonStyleLight" parent="@style/Widget.AppCompat.Button.Borderless.Colored">
+        <!-- Apple 风格按钮：圆角设计 -->
         <item name="textColor">@color/colorAccent</item>
         <item name="backgroundColor">@color/white</item>
+        <item name="android:backgroundTint">@color/white</item>
     </style>
 
     <style name="ThemeChangeButtonStyleDark" parent="@style/Widget.AppCompat.Button.Borderless.Colored">
         <item name="textColor">@color/colorPrimary</item>
-        <item name="backgroundColor">@color/grey_850</item>
+        <item name="backgroundColor">@color/apple_card_dark</item>
     </style>
 
     <style name="ThemeChangeButtonStyleBlack" parent="@style/Widget.AppCompat.Button.Borderless.Colored">
         <item name="textColor">@color/colorPrimary</item>
-        <item name="backgroundColor">@color/black</item>
-
+        <item name="backgroundColor">@color/apple_card_dark</item>
     </style>
 
     <!--  组件动画  -->
